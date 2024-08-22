@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "dev2": "nodemon expressJson.js",
+    "query": "nodemon query.js",
+    "mw": "nodemon middleWare.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

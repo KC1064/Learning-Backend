@@ -24,7 +24,7 @@ app.listen(3000, () => {
 });
 
 
-
+// To display the phones with their ids
 app.get('/phones/:id', (req, res) => {
     console.log(req.params);
     const phoneID = parseInt(req.params.id); 
